@@ -72,4 +72,35 @@ var age = 10;
 default :
 console.log("The value of the age variable is not numerical");
  
- }
+ };
+
+// Days of the week
+var day = "Sunday";
+  switch (day){
+        case'Monday' :
+            console.log(" Today is not a weekend")  ;
+            break;
+        case 'Monday' :
+            console.log(" Today is not a weekend")  ;
+            break;
+        case 'Tuesday' :
+            console.log(" Today is not a weekend")  ;
+                break;
+        case 'Wednesday' :
+            console.log(" Today is not a weekend")  ;
+                break;
+        case 'Thursday':
+            console.log(" Today is not a weekend")  ;
+                break;
+        case 'Friday' :
+            console.log(" Today is not a weekend") ;
+                break;
+        case 'Saturday' :
+            console.log(" Today is not a weekend") ;
+            break;
+        case 'Sunday' :
+                console.log(" Today is a weekend") ;
+                break;
+        default : 
+        console.log("There is no such day");
+  };

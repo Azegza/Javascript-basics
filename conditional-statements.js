@@ -35,3 +35,41 @@ break; // if the case is met
     console.log( "My favrite fruit is " + fruit);  // output  My favrite fruit is apple
 break;
 }
+
+
+
+
+// Are you old enough? programmed in js using if else if else and switch case default statements 
+
+var age = 10;
+ if ( age >65){
+    console.log("You get your income from your pension");
+ }
+  else if ( age >= 18){
+    console.log("Each month you will get a salary");
+ }
+ else if ( age<18){
+    console.log("You get an allowance");
+ }
+ else {
+    console.log("The value of the age variable is not numerical")
+ };
+
+
+
+ //switch statement 
+ var age = 10;
+ switch (age){
+    case age > 65 :
+        console.log("You get your income from your pension");
+        break;
+    case age >= 18 :
+            console.log("Each month you will get a salary");
+            break;
+     case age < 18 :
+                console.log("You  get an allowance");
+                break;
+default :
+console.log("The value of the age variable is not numerical");
+ 
+ }

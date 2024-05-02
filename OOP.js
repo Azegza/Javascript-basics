@@ -1,6 +1,6 @@
 // Task 1: Code a Person class
 class person  {
-    constractor (
+    constructor (
         name = "Tom",
         age =  20,
         energy = 100,
